@@ -106,3 +106,6 @@ sudo service nginx reload
 http://nginxfundementals.com/thumb.png<br/>
 http://nginxfundementals.com/greet<br/>
 http://nginxfundementals.com/grsdsd<br/>
+
+## logging
+<p>There are two directives, they are access log and error log and can even be set to off.
