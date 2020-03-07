@@ -78,7 +78,7 @@ Get all modules related to dynamic<br/>
 
 <code>./configure --sbin-path=/usr/bin/nginx --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-pcre --pid-path=/var/run/nginx.pid --with-http_image_filter_module=dynamic --with-http_xslt_module=dynamic --modules-path=/etc/nginx/modules</code><br/>
 If error occurs, try installing<br/>
-<code>sudo apt-get install libxslt-dev</code>
+<code>sudo apt-get install libxslt-dev</code><br/>
 You might also need<br/>
 <code>
 sudo apt-get install libgd-dev # for the "error: the HTTP image filter module requires the GD library." error<br/>
