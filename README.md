@@ -87,9 +87,9 @@ sudo service nginx reload
 </ul>
 
 ## Examples on Rewrites
-[/user/jim](http://nginxfundementals.com/user/jim)
-[/user/john](http://nginxfundementals.com/user/john)
-[/greet](http://nginxfundementals.com/greet)
-[/greet/john](http://nginxfundementals.com/greet/john)
-[/greet/jim](http://nginxfundementals.com/greet/jim)
-[/greet/jo](http://nginxfundementals.com/greet/jo)
+[/user/jim](http://nginxfundementals.com/user/jim)<br/>
+[/user/john](http://nginxfundementals.com/user/john)<br/>
+[/greet](http://nginxfundementals.com/greet)<br/>
+[/greet/john](http://nginxfundementals.com/greet/john)<br/>
+[/greet/jim](http://nginxfundementals.com/greet/jim)<br/>
+[/greet/jo](http://nginxfundementals.com/greet/jo)<br/>
