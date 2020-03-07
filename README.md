@@ -85,3 +85,11 @@ sudo service nginx reload
     <li>Regex match takes high priority</li>
     <li>Prefix Match</li>
 </ul>
+
+## Examples on Rewrites
+[/user/jim](http://nginxfundementals.com/user/jim)
+[/user/john](http://nginxfundementals.com/user/john)
+[/greet](http://nginxfundementals.com/greet)
+[/greet/john](http://nginxfundementals.com/greet/john)
+[/greet/jim](http://nginxfundementals.com/greet/jim)
+[/greet/jo](http://nginxfundementals.com/greet/jo)
