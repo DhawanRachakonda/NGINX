@@ -1,11 +1,11 @@
-##NGINX INSTALATION
+## NGINX INSTALATION
 
-###Not RECOMENDED
+### Not RECOMENDED
 apt-get install nginx
 
 ps aux | grep nginx
 
-###RECOMENDED
+### RECOMENDED
 wget http://nginx.org/download/nginx-1.17.9.tar.gz
 
 untar
@@ -33,7 +33,7 @@ install compiled source
 
 make install
 
-###Adding nginx as a service
+### Adding nginx as a service
 
 nginx -s stop nginx -h gives all available commands
 
@@ -55,13 +55,13 @@ PrivateTmp=true
 [Install]
 WantedBy=multi-user.target
 
-###To enable startup boot
+### To enable startup boot
 
 systemctl enable nginx
 
-###to check the syntax
+### to check the syntax
 nginx -t
 
-###troubleshoot 
+## troubleshoot 
 
 [Nginx Pid missing](https://serverfault.com/questions/565339/nginx-fails-to-stop-and-nginx-pid-is-missing)
