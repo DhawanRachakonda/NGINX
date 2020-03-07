@@ -76,6 +76,10 @@ nginx -t
 
 sudo ln -s /home/dhawan/projects/nginx/udemy/nginx.conf /etc/nginx/nginx.conf
 
+### Know configure arguments
+
+nginx -V
+
 ### Reload
 
 sudo service nginx reload
