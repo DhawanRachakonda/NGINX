@@ -66,6 +66,26 @@ systemctl enable nginx
 ### to check the syntax
 nginx -t
 
-## troubleshoot 
+## Troubleshoot 
 
 [Nginx Pid missing](https://serverfault.com/questions/565339/nginx-fails-to-stop-and-nginx-pid-is-missing)
+
+## Useful Things
+
+### Create Symbolic link
+
+sudo ln -s /home/dhawan/projects/nginx/udemy/nginx.conf /etc/nginx/nginx.conf
+
+### Reload
+
+sudo service nginx reload
+
+## Cheatsheet
+
+<h2>Match Priority</h2>
+<ul>
+    <li>Exact Match</li>
+    <li>Preferential prefex</li>
+    <li>Regex match takes high priority</li>
+    <li>Prefix Match</li>
+</ul>
