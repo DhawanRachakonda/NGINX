@@ -97,3 +97,8 @@ sudo service nginx reload
 [/greet/john](http://nginxfundementals.com/greet/john)<br/>
 [/greet/jim](http://nginxfundementals.com/greet/jim)<br/>
 [/greet/jo](http://nginxfundementals.com/greet/jo)<br/>
+
+## Examples on try files and named locations
+http://nginxfundementals.com/thumb.png<br/>
+http://nginxfundementals.com/greet<br/>
+http://nginxfundementals.com/grsdsd<br/>
