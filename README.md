@@ -66,6 +66,29 @@ systemctl enable nginx
 ### to check the syntax
 nginx -t
 
+## INSTALL DYNAMIC MODULES
+
+Go to source code<br/>
+Execute nginx -V<br/>
+Copy all configure arguments<br/>
+Get all modules related to dynamic<br/>
+<code>./configure --help | grep dynamic<code/>
+
+### Execute configure
+
+<code>./configure --sbin-path=/usr/bin/nginx --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-pcre --pid-path=/var/run/nginx.pid --with-http_image_filter_module=dynamic --with-http_xslt_module=dynamic --modules-path=/etc/nginx/modules</code><br/>
+If error occurs, try installing<br/>
+<code>sudo apt-get install libxslt-dev</code>
+You might also need<br/>
+<code>
+sudo apt-get install libgd-dev # for the "error: the HTTP image filter module requires the GD library." error<br/>
+sudo apt-get install libgeoip-dev # for the GeoIP package
+</code><br/>
+Run make
+<code>make</code>
+Install make
+<code>sudo make install</code>
+
 ## Troubleshoot 
 
 [Nginx Pid missing](https://serverfault.com/questions/565339/nginx-fails-to-stop-and-nginx-pid-is-missing)
