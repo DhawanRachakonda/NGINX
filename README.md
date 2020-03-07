@@ -1,3 +1,7 @@
+## SETUP
+Add the bellow in host file
+<your ip address>	nginxfundementals.com
+
 ## NGINX INSTALATION
 
 ### Not RECOMENDED
