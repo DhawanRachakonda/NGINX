@@ -1,6 +1,6 @@
 ## SETUP
 Add the bellow in host file
-<your ip address>	nginxfundementals.com
+your_ip_address	nginxfundementals.com
 
 ## NGINX INSTALATION
 
