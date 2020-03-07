@@ -84,6 +84,12 @@ nginx -V
 
 sudo service nginx reload
 
+### System details
+
+nproc<br/>
+lscpu<br/>
+ulimit - To know number of open connections<br/>
+
 ## Cheatsheet
 
 <h2>Match Priority</h2>
@@ -93,6 +99,10 @@ sudo service nginx reload
     <li>Regex match takes high priority</li>
     <li>Prefix Match</li>
 </ul>
+
+### Worker Process
+<code>worker_processes auto</code><br/>
+<code>worker_connections 1024</code><br/>
 
 ## Examples on Rewrites
 [/user/jim](http://nginxfundementals.com/user/jim)<br/>
