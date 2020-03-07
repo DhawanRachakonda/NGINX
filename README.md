@@ -72,7 +72,7 @@ Go to source code<br/>
 Execute nginx -V<br/>
 Copy all configure arguments<br/>
 Get all modules related to dynamic<br/>
-<code>./configure --help | grep dynamic<code/>
+<code>./configure --help | grep dynamic</code>
 
 ### Execute configure
 
@@ -84,10 +84,10 @@ You might also need<br/>
 sudo apt-get install libgd-dev # for the "error: the HTTP image filter module requires the GD library." error<br/>
 sudo apt-get install libgeoip-dev # for the GeoIP package
 </code><br/>
-Run make
-<code>make</code>
-Install make
-<code>sudo make install</code>
+### Run make
+<code>make</code><br/>
+### Install make
+<code>sudo make install</code><br/>
 
 ## Troubleshoot 
 
