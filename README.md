@@ -146,3 +146,8 @@ http://nginxfundementals.com/grsdsd<br/>
 
 ## logging
 <p>There are two directives, they are access log and error log and can even be set to off.
+
+## Examples on headers
+
+<code>curl -I http://nginxfundementals.com/style.css</code>
+<code>curl -I http://nginxfundementals.com/thumb.png</code>
