@@ -113,6 +113,12 @@ nproc<br/>
 lscpu<br/>
 ulimit - To know number of open connections<br/>
 
+### Enable Brotli
+
+<strong>You should have valid certificate to enablle brotli. Check readme file in cert_conf folder.</strong>
+[enable brotli](https://www.vultr.com/docs/add-brotli-support-to-nginx-on-ubuntu-18-04)<br/>
+For compilation follow INSTALL DYNAMIC MODULES
+
 ## Cheatsheet
 
 ### Match Priority
